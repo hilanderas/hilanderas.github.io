@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="WIRELESS.html" />
+    <link rel="next" href="CONVERTER.html" />
     
     
     <link rel="prev" href="../quickstart/UNINSTALL.html" />
@@ -183,38 +183,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="WIRELESS.html">
-            
-                <a href="WIRELESS.html">
-            
-                    
-                    Wireless router
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.3" data-path="ISP.html">
-            
-                <a href="ISP.html">
-            
-                    
-                    ISP
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.4" data-path="CONVERTER.html">
+        <li class="chapter " data-level="3.2" data-path="CONVERTER.html">
             
                 <a href="CONVERTER.html">
             
                     
-                    USB to RJ45
+                    USB to NIC
             
                 </a>
             
@@ -309,11 +283,33 @@
                                 
                                 <h1 id="soft-router">Soft Router</h1>
 <h3 id="what-is-soft-router">What is Soft Router</h3>
+<p>Router is a specified type of network device. As a customer, you could purchase routers from vendors, such as <code>Cisco</code>, <code>Huwai</code>, <code>TP-Link</code>. It consists of the hardware and software part, which have been designed and produced by those vendors. Once you buy the hardware, you get the whole routing features. However, if you want to perform centain modification, it depends on the API the software provides, you may not be able to do the adjustment you want in this scenario.</p>
+<p>And here, so called <code>Soft Router</code> means that the device you purchase has hardware interfaces as a router, e.g, multiple <code>NIC</code>, Network Interface Card. However, you have to configure on your own to make this device a router.</p>
 <h3 id="what-it-looks-like">What it looks like</h3>
-<h4 id="x86">x86</h4>
-<h4 id="arm">arm</h4>
+<ul>
+<li><p>We have bought this online. Its arch is <code>x86</code>.</p>
+<p align="center">
+<img src="sr-x86.jpg">
+</p>
+</li>
+<li><p>We use a Raspberry Pi 3 and a USB-NIC adapter to get two NICs, you can plug more to get more NICs. Its arch is <code>arm</code>.</p>
+<p align="center">
+<img src="sr-arm.jpeg">
+</p>
+
+</li>
+</ul>
 <h3 id="configuration">Configuration</h3>
+<ul>
+<li>Install an operating system</li>
+<li>Configurate it as a router</li>
+<li>Make adjustment to fit your special needs</li>
+</ul>
 <h3 id="where-to-buy-and-how-much-does-it-cost">Where to buy and how much does it cost</h3>
+<ul>
+<li>Amazon</li>
+<li>Taobao</li>
+</ul>
 
                                 
                                 </section>
@@ -346,7 +342,7 @@
                 </a>
                 
                 
-                <a href="WIRELESS.html" class="navigation navigation-next " aria-label="Next page: Wireless router">
+                <a href="CONVERTER.html" class="navigation navigation-next " aria-label="Next page: USB to NIC">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -357,7 +353,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Soft Router","level":"3.1","depth":1,"next":{"title":"Wireless router","level":"3.2","depth":1,"path":"hardware/WIRELESS.md","ref":"hardware/WIRELESS.md","articles":[]},"previous":{"title":"Uninstall system","level":"2.3","depth":1,"path":"quickstart/UNINSTALL.md","ref":"quickstart/UNINSTALL.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["video"],"pluginsConfig":{"video":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"hardware/SR.md","mtime":"2019-03-03T11:27:55.592Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-03T11:28:44.740Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Soft Router","level":"3.1","depth":1,"next":{"title":"USB to NIC","level":"3.2","depth":1,"path":"hardware/CONVERTER.md","ref":"hardware/CONVERTER.md","articles":[]},"previous":{"title":"Uninstall system","level":"2.3","depth":1,"path":"quickstart/UNINSTALL.md","ref":"quickstart/UNINSTALL.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["video"],"pluginsConfig":{"video":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"hardware/SR.md","mtime":"2019-03-04T06:33:39.208Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-04T06:34:28.425Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
